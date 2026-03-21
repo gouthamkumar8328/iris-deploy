@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 **Iris Deploy** is an end-to-end machine learning project that trains a classifier on the famous [Iris dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html) and serves it as a production-ready REST API inside a Docker container.
 
@@ -23,18 +23,18 @@ It is ideal as a reference for anyone learning how to move a machine learning mo
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🧠 **Model training** on the Iris dataset using Scikit-learn
-- 💾 **Model persistence** — trained model saved to disk for serving
-- 🌐 **REST API** to serve live predictions
-- 🐳 **Fully Dockerized** — runs anywhere with a single command
-- 📦 **Clean dependency management** via `requirements.txt`
-- ⚡ **Lightweight** — uses minimal, production-appropriate dependencies
+-  **Model training** on the Iris dataset using Scikit-learn
+-  **Model persistence** — trained model saved to disk for serving
+-  **REST API** to serve live predictions
+-  **Fully Dockerized** — runs anywhere with a single command
+-  **Clean dependency management** via `requirements.txt`
+-  **Lightweight** — uses minimal, production-appropriate dependencies
 
 ---
 
-## 🌸 About the Iris Dataset
+##  About the Iris Dataset
 
 The Iris dataset is one of the most well-known datasets in machine learning. It contains **150 samples** of iris flowers with **4 features** each:
 
@@ -52,7 +52,7 @@ The model classifies each sample into one of **3 species**:
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -64,7 +64,7 @@ The model classifies each sample into one of **3 species**:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 iris-deploy/
@@ -81,7 +81,7 @@ iris-deploy/
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -149,7 +149,7 @@ The API will be available at `http://localhost:5000`.
 
 ---
 
-## 🌐 API Usage
+##  API Usage
 
 ### Endpoint
 
@@ -206,7 +206,7 @@ print(response.json())
 
 ---
 
-## 🐳 Docker Details
+##  Docker Details
 
 The `Dockerfile` defines the full build and run process:
 
